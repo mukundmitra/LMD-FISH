@@ -1,0 +1,12 @@
+SAM_WEIGHTS = "sam2.1_b.pt"
+VIDEO_DEVICE_MAIN = "/dev/video2"
+VIDEO_DEVICE_MOBILE = "/dev/video0"
+CLIP_RECT = (100, 100, 480, 640)
+TEXT_PROMPT1 = "wooden piece held in gripper"
+TEXT_PROMPT2 = "Jenga piece"
+BOX_THRESHOLD = 0.35
+TEXT_THRESHOLD = 0.25
+PIXEL_THRESHOLD = 10
+GD_PATH = "/home/GroundingDINO"
+CONFIG_PATH = f"{GD_PATH}/groundingdino/config/GroundingDINO_SwinT_OGC.py"
+WEIGHTS_PATH = f"{GD_PATH}/weights/groundingdino_swint_ogc.pth.1"
